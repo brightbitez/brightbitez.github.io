@@ -1,0 +1,52 @@
+<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+h1 {
+	color: green;
+	margin-left: 850px;
+	font-size: 65px;
+	font-family: 'Major Mono Display', monospace;
+}
+body {
+
+ background-color: beige;
+ background: url(bg.jpg);
+  background-size: 2000px 30001	px;
+
+}
+h2{
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25px;
+	border: 1px solid;
+  	padding: 10px;
+  	box-shadow: 5px 10px;
+	display:inline-block;
+	background-color: peru;
+}
+h3{
+	margin-left: 200px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size:25px;
+	border: 1px solid;
+  	padding: 10px;
+  	box-shadow: 5px 10px;
+	display:inline-block;
+	background-color: peru;
+}
+div.summary{
+	margin-left: 400px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size:15px;
+
+
+}
+a:visited { 
+	
+	color: orange;
+}
+a:link { 
+	color: red;
+	}

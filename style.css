@@ -1,40 +1,43 @@
 
-
 h1 {
-color:#FFD700;
-margin-left:700px;
+
+margin-left:600px;
 font-size:65px;
-font-variant:small-caps;
-border:1px solid;
-box-shadow:5px 10px;
-display:inline-block;
-background-color:#CD853F;
+ border: 12px solid transparent;
+  padding: 15px;
+  border-image: url(border1.jpg) 100 round;
+  display: inline-block;
+background-color: beige;
 padding:10px;
+text-shadow: 0 0 40px ;
 
 }
 
 body {
   background-image: url("bg.jpg");
-
+  
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+   border: 30px solid transparent;
+  padding: 50px;
+  border-image: url(bgborder.jpg) 240 round;
 }
 
 h2 {
 	
-margin-left:760px;
+margin-left:660px;
 margin-top:20px;
 margin-bottom:20px;
 
 font-family:"Lucida Console", Monaco, monospace;
 font-size:25px;
-border:3px groove;
-box-shadow:5px 10px;
-display:inline-block;
-background-color:#CD853F;
+border: 12px solid transparent;
+  padding: 15px;
+  border-image: url(border1.jpg) 100 round;
+  display: inline-block;
+background-color: beige;
 padding:10px;
-background-image: linear-gradient(to bottom,beige,gold);
+text-shadow: 0 0 40px ;
 }
 
 h3 {
@@ -43,21 +46,41 @@ margin-top:20px;
 margin-bottom:20px;
 font-family:"Lucida Console", Monaco, monospace;
 font-size:25px;
-border:1px solid;
-box-shadow:5px 10px;
-display:inline-block;
-background-color:#CD853F;
+border: 12px solid transparent;
+  padding: 15px;
+  border-image: url(border1.jpg) 100 round;
+  display: inline-block;
+background-color: beige;
 padding:10px;
-background-image: linear-gradient(to right, grey,salmon);
 }
 
 ul li {
 letter-spacing:2px;
 margin-left:1400px;
 font-family:"Lucida Console", Monaco, monospace;
-font-size:15px;
+font-size:13px;
 }
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: brown;
+	text-shadow: 0 0 3px ;
+	}
+.sidebar li a:visited {
+	color: darksalmon;
+	text-shadow: 0 0 3px ;
 
+	}
 a:visited {
 color:blue;
 }
@@ -76,10 +99,12 @@ display:inline-block;
 background-color:beige;
 padding:5px;
 text-shadow: 0 0 3px gold;
-
 }
+
+
+
 div.summary{
-	margin-left:500px;
+	margin-left:400px;
 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 font-size:15px;
 box-shadow:5px 10px;
@@ -89,21 +114,24 @@ padding:5px;
 text-shadow: 0 0 3px;
 background-image: linear-gradient(to right, beige,silver);
 border:4px double;
+
 }
 
 div.preamble,div.explanation,div.participation,div.benefits,div.requirements {
 letter-spacing:2px;
-margin-left:100px;
+
 font-family:"Lucida Console", Monaco, monospace;
 font-size:15px;
 
-box-shadow:5px 10px;
-display:inline-block;
-background-color:wheat;
-padding:5px;
-text-shadow: 0 0 3px;
-background-image: linear-gradient(to right, pink, gold);
-border:4px double;
+border: 12px solid transparent;
+  padding: 15px;
+  border-image: url(border1.jpg) 100 round;
+  display: inline-block;
+background-color: burlywood;
+padding:10px;
+text-shadow: 0 0 40px ;
+
+ 
 
 }
 
@@ -117,10 +145,10 @@ text-shadow: 2px 2px 8px aquamarine;
 }
 .page-wrapper { 
 	margin-left:100px;
-	margin-bottom: 100px;	
-	background: url(img2.jpg) no-repeat bottom left; 
-	background-size: 1200px 500px;
-	filter: grayscale(50%);
-
+	margin-bottom: 0px;	
+	background-image: url(img2.jpg), url(img4.jpg),url(vintage.jpg);
+  background-position: left bottom, left top,right top;
+  background-repeat: no-repeat, no-repeat,no-repeat;
+  background-size: 1200px 500px , 350px 300px,350px 300px;
 	
 	}

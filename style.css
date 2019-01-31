@@ -52,13 +52,24 @@ border: 12px solid transparent;
   display: inline-block;
 background-color: beige;
 padding:10px;
+position: relative;
+animation-name: animations;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
-
+@keyframes animations {
+  0%   {left:0px; top:0px;}
+  25%  {left:20px; top:0px;}
+  50%  {left:40px; top:0px;}
+  75%  {left:20px; top:0px;}
+  100% {left:0px; top:0px;}
+}
 ul li {
 letter-spacing:2px;
 margin-left:1400px;
 font-family:"Lucida Console", Monaco, monospace;
 font-size:13px;
+
 }
 .sidebar ul {
 	margin: 0;
@@ -79,8 +90,8 @@ font-size:13px;
 .sidebar li a:visited {
 	color: darksalmon;
 	text-shadow: 0 0 3px ;
-
 	}
+
 a:visited {
 color:blue;
 }
@@ -88,17 +99,22 @@ color:blue;
 a:link {
 color:brown;
 }
+a:hover{
+	background-color: silver;
+}
 
 footer {
 background-image: linear-gradient(beige, silver);
-margin-left:1500px;
+margin-left:1550px;
 font-family:"Lucida Console", Monaco, monospace;
 font-size:15px;
 box-shadow:2px 2px;
-display:inline-block;
+
+display:grid;
 background-color:beige;
 padding:5px;
 text-shadow: 0 0 3px gold;
+
 }
 
 
@@ -142,6 +158,7 @@ font-family:"Lucida Console", Monaco, monospace;
 font-size:15px;
 padding:10px;
 text-shadow: 2px 2px 8px aquamarine;
+
 }
 .page-wrapper { 
 	margin-left:100px;
@@ -150,5 +167,6 @@ text-shadow: 2px 2px 8px aquamarine;
   background-position: left bottom, left top,right top;
   background-repeat: no-repeat, no-repeat,no-repeat;
   background-size: 1200px 500px , 350px 300px,350px 300px;
+
 	
 	}

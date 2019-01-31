@@ -1,52 +1,126 @@
-<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+
+
 h1 {
-	color: green;
-	margin-left: 850px;
-	font-size: 65px;
-	font-family: 'Major Mono Display', monospace;
+color:#FFD700;
+margin-left:700px;
+font-size:65px;
+font-variant:small-caps;
+border:1px solid;
+box-shadow:5px 10px;
+display:inline-block;
+background-color:#CD853F;
+padding:10px;
+
 }
+
 body {
+  background-image: url("bg.jpg");
 
- background-color: beige;
- background: url(bg.jpg);
-  background-size: 2000px 30001	px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
-h2{
-	margin-left: 200px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 25px;
-	border: 1px solid;
-  	padding: 10px;
-  	box-shadow: 5px 10px;
-	display:inline-block;
-	background-color: peru;
+
+h2 {
+	
+margin-left:760px;
+margin-top:20px;
+margin-bottom:20px;
+
+font-family:"Lucida Console", Monaco, monospace;
+font-size:25px;
+border:3px groove;
+box-shadow:5px 10px;
+display:inline-block;
+background-color:#CD853F;
+padding:10px;
+background-image: linear-gradient(to bottom,beige,gold);
 }
-h3{
-	margin-left: 200px;
-	margin-top:20px;
-	margin-bottom: 20px;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size:25px;
-	border: 1px solid;
-  	padding: 10px;
-  	box-shadow: 5px 10px;
-	display:inline-block;
-	background-color: peru;
+
+h3 {
+margin-left:-100px;
+margin-top:20px;
+margin-bottom:20px;
+font-family:"Lucida Console", Monaco, monospace;
+font-size:25px;
+border:1px solid;
+box-shadow:5px 10px;
+display:inline-block;
+background-color:#CD853F;
+padding:10px;
+background-image: linear-gradient(to right, grey,salmon);
+}
+
+ul li {
+letter-spacing:2px;
+margin-left:1400px;
+font-family:"Lucida Console", Monaco, monospace;
+font-size:15px;
+}
+
+a:visited {
+color:blue;
+}
+
+a:link {
+color:brown;
+}
+
+footer {
+background-image: linear-gradient(beige, silver);
+margin-left:1500px;
+font-family:"Lucida Console", Monaco, monospace;
+font-size:15px;
+box-shadow:2px 2px;
+display:inline-block;
+background-color:beige;
+padding:5px;
+text-shadow: 0 0 3px gold;
+
 }
 div.summary{
-	margin-left: 400px;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size:15px;
+	margin-left:500px;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:15px;
+box-shadow:5px 10px;
+display:inline-block;
+background-color:wheat;
+padding:5px;
+text-shadow: 0 0 3px;
+background-image: linear-gradient(to right, beige,silver);
+border:4px double;
+}
 
+div.preamble,div.explanation,div.participation,div.benefits,div.requirements {
+letter-spacing:2px;
+margin-left:100px;
+font-family:"Lucida Console", Monaco, monospace;
+font-size:15px;
+
+box-shadow:5px 10px;
+display:inline-block;
+background-color:wheat;
+padding:5px;
+text-shadow: 0 0 3px;
+background-image: linear-gradient(to right, pink, gold);
+border:4px double;
 
 }
-a:visited { 
+
+h3.select,h3.archives,h3.resources {
+letter-spacing:2px;
+margin-left:1400px;
+font-family:"Lucida Console", Monaco, monospace;
+font-size:15px;
+padding:10px;
+text-shadow: 2px 2px 8px aquamarine;
+}
+.page-wrapper { 
+	margin-left:100px;
+	margin-bottom: 100px;	
+	background: url(img2.jpg) no-repeat bottom left; 
+	background-size: 1200px 500px;
+	filter: grayscale(50%);
+
 	
-	color: orange;
-}
-a:link { 
-	color: red;
 	}

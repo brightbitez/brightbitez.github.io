@@ -1,0 +1,148 @@
+h1{
+	font-family: 'Marmelad', sans-serif;
+	display: inline-block;
+	padding: 35px;
+	font-size: 50px;
+	border:10px solid;
+	
+	margin-left: 600px;
+	background-image: linear-gradient(to right, gold , pink);
+	border-radius: 25px;
+}
+
+
+
+body{
+	background-image: url(bg.jpg);
+	background-size: 1600px 700px;
+	background-attachment: fixed;
+}
+p.intro{
+	font-family: 'Bai Jamjuree', sans-serif;
+	border:1px solid #999999;
+  color:white;
+  background-color:#434343;
+  font-size:19.5px;
+  width:500px;
+  position: relative;
+  left:274px;
+  display: inline-block;
+  padding: 20px;
+  height: auto;
+  border-radius: 25px;
+}
+p.cal-explanation{
+	font-family: 'Bai Jamjuree', sans-serif;
+	border:1px solid #999999;
+  color:white;
+  background-color:#434343;
+  font-size:19.5px;
+  width:500px;
+  position: relative;
+  left:850px;
+  bottom: 810px;
+  display: inline-block;
+  padding: 20px;
+  height: auto;
+  border-radius: 25px;
+}
+pre.ex2{
+	display: inline-block;
+	padding: 35px;
+	padding-left: 20px;
+	font-size: 30px;
+	background-image: url(htmlbg.png);
+	border:1px solid;
+	border-radius: 25px;
+}
+pre.ex1{
+	display: inline-block;
+	padding: 35px;
+	padding-left: 20px;
+	font-size: 30px;
+	background-image: url(cssbg.png);
+	border:1px solid;
+	position: absolute;
+	left: 900px;
+	border-radius: 25px;
+}
+h2{
+	font-family: 'Marmelad', sans-serif;
+	position: absolute;
+	margin-left: 100px;
+	display: inline-block;
+	padding: 35px;
+	font-size: 20px;
+	border:5px solid;
+	background-image: linear-gradient(to right, beige , aquamarine);
+	border-radius: 25px;
+}
+h3{
+	font-family: 'Marmelad', sans-serif;
+	position: relative;
+	right: 550px;
+	top: 50px;
+	display: inline-block;
+	padding: 35px;
+	font-size: 20px;
+	border:5px solid;
+	background-image: linear-gradient(to right, beige , aquamarine);
+	border-radius: 25px;
+}
+h4{
+	font-family: 'Marmelad', sans-serif;
+	position: absolute;
+	left:850px;
+	bottom: 415px;
+	display: inline-block;
+	padding: 35px;
+	font-size: 20px;
+	border:5px solid;
+	background-image: linear-gradient(to right, beige , aquamarine);
+	border-radius: 25px;
+}
+pre.result{
+	display: inline-block;
+	padding: 35px;
+	padding-left: 20px;
+	font-size: 30px;
+	background-image: url(resultbg.png);
+	border:1px solid;
+	position: absolute;
+	left:900px;
+	top:740px;
+	border-radius: 25px;
+}
+p.ex1-explanation{
+	font-family: 'Bai Jamjuree', sans-serif;
+	left: 25px;
+	border:1px solid #999999;
+  color:white;
+  background-color:#434343;
+  font-size:19.5px;
+  width:500px;
+  position: relative;
+
+  display: inline-block;
+  padding: 20px;
+  height: auto;
+  border-radius: 25px;
+}
+a.green{
+	color:green;
+}
+a.tag{
+	color:rgb(255,0,60);
+}
+a.class{
+	color:lightgreen;
+}
+a.white{
+	color:white;
+}
+a.aqua{
+	color:aqua;
+}
+a.yellow{
+	color:yellow;
+}

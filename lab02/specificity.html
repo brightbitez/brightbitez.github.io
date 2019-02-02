@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Specificity</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Marmelad');
+</style>
+</head>
+
+<body>
+
+<h1>CSS Specificity</h1>
+<div>
+<h2>Definition:</h2>
+<p class ="intro">CSS Specificity คือ ความจำเพาะเจาะจงใน CSS มีไว้เพื่อหาความสำคัญของคำสั่งใน CSS กรณีที่มี selector ซ้ำกัน เนื่องจากบางครั้งเราจะเห็นว่าคำสั่งบางคำสั่งนั้นได้มี selector ที่ชี้ไปที่ element ที่ซ้ำกับคำสั่งก่อนหน้า และตาม CSS rules แล้ว คำสั่งที่ทำการประกาศภายหลังจะได้รับการประมวลผล แต่เนื่องจากใน CSS ได้ถูกออกแบบให้มี CSS Specificity เพื่อคำนวนค่าของความจำเพาะเจาะจงของคำสั่งที่มี selector ที่ซ้ำกันจึงทำให้การใช้คำสั่งบางคำสั่งที่มี selector ซ้ำกับคำสั่งอื่นต้องถูกยกเลิกเพราะมีค่า specificity ที่ต่ำกว่า หรือ พูดง่ายๆว่ามีความเจาะจงน้อยกว่า ด้วยการเทียบค่า specificity นั่นเอง</p>
+<h3>Example</h3>
+<pre class ="ex2">
+<a class="white">&lt!</a><a class="tag">DOCTYPE</a> <a class="white">html&gt</a>
+<a class="white">&lt</a><a class="tag">html</a><a class="white">&gt</a>
+<a class="white">&lt</a><a class="tag">head</a><a class="white">&gt</a>
+	<a class="white">&lt</a><a class="tag">title</a><a class="white">&gt</a><a class="white">&lt/</a><a class="tag">title</a><a class="white">&gt</a>
+	<a class="white">&lt</a><a class="tag">link</a> <a class="class">rel</a><a class="white">=</a><a class="yellow">"stylesheet"</a> <a class = "class">href</a><a class="white">=</a><a class = "yellow">"styles.css"</a><a class="white">&gt</a>
+<a class="white">&lt/</a><a class="tag">head</a><a class="white">&gt</a>
+<a class="white">&lt</a><a class="tag">body</a><a class="white">&gt</a>
+<a class="white">&lt</a><a class="tag">div</a><a class="white">&gt</a>
+	<a class="white">&lt</a><a class="tag">p</a><a class="white">&gt</a><a class="white">Example</a><a class="white">&lt</a><a class="tag">/p</a><a class="white">&gt</a>
+<a class="white">&lt/</a><a class="tag">div</a><a class="white">&gt</a>
+<a class="white">&lt/</a><a class="tag">body</a><a class="white">&gt</a>
+<a class="white">&lt/</a><a class="tag">html</a><a class="white">&gt</a>
+</pre>
+
+<pre class ="ex1"><a class="tag">div</a><a class= "class">.p</a><a class ="white">{</a><a class = "aqua">background-color</a><a class="white">:</a><a class = "aqua">green;</a><a class="white">}</a>
+<a class= "class">.p</a><a class ="white">{</a><a class = "aqua">background-color</a><a class="white">:</a><a class = "aqua">red;</a><a class="white">}</a></pre>
+<pre class="result"><a class="green">Example</a></pre>
+<p class="ex1-explanation">จะเห็นได้ว่าในส่วนของ code CSS ด้านล่างมี selector ที่ซ้ำกับด้านบน แต่มีความเจาะจงหรือ specificity น้อยกว่า เนื่องจาก code ด้านบนมีการชี้ไปถึง element ของ html จึงทำให้โค้ดด้านบนถูกนำไปประมวลผลแทนโค้ดด้านล่าง</p>
+<h4>Calculation:</h4>
+<p class="cal-explanation">การคำนวนค่า specificity จะให้ความสำคัญจากมากไปหาน้อยของ Inline style,ID,Class,Element ตามลำดับ โดยตัวโปรแกรม css จะทำการประมวลผลค่า specificity ก่อนทำการดำเนินการคำสั่ง</p>
+
+
+</div>
+
+
+
+
+
+<div>
+
+
+
+</div>
+</body>
+
+
+
+</html>

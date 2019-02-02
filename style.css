@@ -17,6 +17,7 @@ body {
   background-image: url("bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+	background-size: 2200px 1100px;
   border: 30px solid transparent;
   padding: 50px;
   border-image: url(bgborder.jpg) 240 round;

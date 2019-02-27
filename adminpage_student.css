@@ -1,0 +1,64 @@
+body{
+  font-family: 'Kanit', sans-serif;
+}
+#logout{
+        position: relative;
+        left:500px;
+        padding: 5px;
+        font-size: 23px;
+     
+  }
+  #obj{
+    font-size: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    left: 750px;
+    top: 20px;
+    border-style:solid;
+border-color:darkgreen;
+overflow:hidden;
+background-image: linear-gradient(to bottom right, green, lightgreen);
+  }
+#subject-code-label{
+  position: relative;
+  left: 700px;
+  top:50px;
+  font-size: 40px;
+}
+#subject-code{
+  width: 200px;
+  position: relative;
+  left: 930px;
+  top:50px;
+  font-size: 40px;
+}
+
+  /*nav link animation*/
+  .nav-link{
+    padding: 20px;
+    font-size: 30px;
+  }
+.nav-link span {
+  cursor: pointer;
+
+  position: relative;
+  transition: 0.5s;
+}
+
+.nav-link span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.nav-link:hover span {
+  padding-right: 25px;
+}
+
+.nav-link:hover span:after {
+  opacity: 1;
+  right: 0;
+}

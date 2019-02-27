@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Add Student Info</title>
+    <title>Add Teacher Info</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="adminpage_student.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="adminpage_teacher.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <script src="main.js"></script>
     
@@ -41,11 +41,11 @@
 </nav>
 
 
-<span style="font-weight:bold" id = "obj">เพิ่มนักเรียน </span>
+<span style="font-weight:bold" id = "obj">เพิ่มอาจารย์ </span>
 <div class="form-group">
-  <label for="info" id = "code-label"><span class="badge badge-dark">รหัสนิสิต</span></label>
+  <label for="info" id = "code-label"><span class="badge badge-dark">รหัสอาจารย์</span></label>
   <input type="text" class="form-control" id="code">
-  <label for="info" id = "name-label"><span class="badge badge-dark">ชื่อนิสิต</span></label>
+  <label for="info" id = "name-label"><span class="badge badge-dark">ชื่ออาจารย์</span></label>
   <input type="text" class="form-control" id="name">
   <label for="info" id = "faculty-label"><span class="badge badge-dark">คณะ</span></label>
   <input type="text" class="form-control" id="faculty">
@@ -55,5 +55,6 @@
   <input type="text" class="form-control" id="email">
 </div>
 <button type="button" class="btn btn-outline-success"id="submitinfo">SUBMIT</button>
+
 </body>
 </html>

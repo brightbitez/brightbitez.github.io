@@ -8,6 +8,7 @@ body{
         left:500px;
         padding: 5px;
         font-size: 23px;
+     
   }
   #obj{
     font-size: 50px;
@@ -43,50 +44,37 @@ body{
     top:50px;
     font-size: 40px;
   }
-  #faculty-label{
+  #prerequisite-label{
     position: relative;
     left: 50px;
     top:50px;
     font-size: 40px;
   }
-  #faculty{
+  #prerequisite{
     width: 400px;
     position: relative;
     left: 50px;
     top:50px;
     font-size: 40px;
   }
-  #department-label{
+  #credits-label{
     position: relative;
     left: 50px;
     top:50px;
     font-size: 40px;
   }
-  #department{
+  #credits{
     width: 400px;
     position: relative;
     left: 50px;
     top:50px;
     font-size: 40px;
   }
-  #email-label{
-    position: relative;
-    left: 900px;
-    bottom:515px;
-    font-size: 40px;
-  }
-  #email{
-    width: 400px;
-    position: relative;
-    left: 900px;
-    bottom:515px;
- 
-    font-size: 40px;
-  }
+
 #submitinfo{
   position: relative;
-  left: 900px;
-  bottom: 450px;
+  left: 600px;
+  bottom: 500px;
   margin-bottom: 40px;
   font-size:34px;
 }
